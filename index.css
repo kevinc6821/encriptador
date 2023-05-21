@@ -1,0 +1,270 @@
+*{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    background-color: #F3F5FC;
+}
+header{
+    width: 100%;
+    padding: 20px;
+}
+.logo{
+    margin-top: 10px;
+    width: 90px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    background-color: #F3F5FC;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+.section1{
+    margin-left: 40px;
+    width: 55%;
+    margin-bottom: 40px;
+
+}
+.text1{
+    width: 80%;
+    resize: none;
+    border-radius: none;
+    border: none;
+    margin-left: 100px;
+
+
+}
+.text2{
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.encriptar{
+    margin-left: 85px;
+    color: #D8DFE8;
+    border: 2px solid #0A3871;
+    background-color: #0A3871;
+    border-radius: 20px;
+    width: 240px;
+    font-size: 16px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.encriptar:hover{
+    padding: 3px;
+    width: 45%;
+}
+.desencriptar{
+    margin-left: 30px;
+    border: 2px solid #0A3871;
+    background-color: #D8DFE8;
+    border-radius: 20px;
+    width: 240px;
+    font-size: 16px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.desencriptar:hover{
+    padding: 3px;
+    width: 45%;
+   
+}
+.section2{
+    width: 40%;
+    text-align: center;
+    margin-right: 40px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.10);    
+    background-color: white;
+    border-radius: 24px;
+}
+.text3{
+    width: 80%;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    resize: none;
+    text-align: center;
+    border-radius: none;
+    border: none;
+    background-color: white;;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    animation: desplazamiento 20s linear infinite;
+}
+@keyframes desplazamiento {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+
+.text4{
+    text-align: center;
+    color: #495057;
+    font-size: 24px;
+    padding: 7px;
+    background-color: white;
+
+}
+.text5{
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 7px;
+    color: #343A40;
+    
+}
+.buttoncopyandclean{
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+
+}
+.copiar{
+    background-color: #D8DFE8;
+    border: 2px solid #0A3871;
+    border-radius: 20px;
+    width: 240px;
+    font-size: 16px;
+    height: 50px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.copiar:hover{
+    padding: 3px;
+    width: 40%;
+}
+
+.clean{
+    background-color: #D8DFE8;
+    border: 2px solid #0A3871;
+    border-radius: 20px;
+    width: 240px;
+    font-size: 16px;
+    height: 50px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.clean:hover{
+    padding:  3px;
+    width: 40%;
+}
+textarea:focus, input:focus, input[type]:focus {
+    outline: 0 none;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+  }
+  
+  footer ul {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+
+  }
+
+  footer a {
+    font-size: 25px;
+    color: #0A3871;
+  }
+  .copyrigth{
+    margin-top: 20px;
+    color: #0A3871;
+    font-size: 20px;
+  }
+
+
+@media (max-width:900px){
+    main{
+        flex-direction: column;
+        width: 100%; 
+    }
+    .section1{
+        margin-left: 1px;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .text1{
+        width: 100%;
+        display: block;
+        margin: 0%;
+        resize: none;
+        border-radius: none;
+        border: none;
+    }
+    .text2{
+        display: block;
+        margin: 0%;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .buttons{
+        width: 70%;
+        margin: 0%;
+        flex-direction: column;
+    }
+    
+    .encriptar{
+        width: 100%;
+        margin-bottom: 3px;
+        margin-left: 50px;
+    }
+    .desencriptar{
+        width: 100%;
+        margin-left: 50px;
+    }
+  
+    .section2{
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .text3{
+        margin-top: 20px;
+        width: 90%;
+        background-image:url(imagenes/Muñeco.png);
+        background-repeat: no-repeat;
+        resize: none;
+        border-radius: none;
+        border: none;
+    }
+}
+

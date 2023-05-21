@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/unnamed.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/f71ae98665.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexxxx.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/candado.png" class="logo">
+    </header>
+    <main>
+        <section class="section1">
+            <textarea class="text1" cols="10" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="text2"><p> <i class="fa-solid fa-circle-info"></i> Solo letras minúsculas y sin acentos</p></div>
+            <div class="buttons">
+                <button class="encriptar"  onclick="btnEncriptar()"><i class="fa-solid fa-key fa-bounce" style="background-color: #0A3871;" style="color: #343a40;" ></i> Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()"><i class="fa-solid fa-user-secret fa-bounce" style="color: #343a40;"></i></i> Desencriptar</button>
+            </div>
+        </section>
+        <section class="section2">
+            <textarea class="text3" cols="20" rows="6"></textarea></div>
+            <p class="text4">Ningún mensaje fue encontrado</p>
+            </div>
+            <div>
+                <p class="text5">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="buttoncopyandclean">
+                <button class="copiar" type="button" onclick="btncopiar()"><i class="fa-sharp fa-solid fa-copy fa-bounce" style="color: #343a40;"></i> Copiar</button>
+                <button class="clean" type="button" onclick="limpiar()"><i class="fa-solid fa-wand-magic-sparkles fa-bounce" style="color: #343a40;"></i> Limpiar</button>
+            </div>
+          
+        </section>
+    </main>
+    <footer>
+        <li><p class="copyrigth"><i class="fa-solid fa-copyright"></i> 2023 KEVIN COSSIO</p></li>
+        <hr style="color: #0A3871; background-color: #0A3871; height: 2px;">
+        <ul>
+            <li><a href="https://www.instagram.com/kevinc6821/?hl=es"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://github.com/kevinc6821" target="_blank"><i class="fa-brands fa-github"></a></i></li>
+            <li><a href="https://www.linkedin.com/in/kevin-cardona-cossío-1865a1164/" target="_blank"><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+      </footer> 
+
+    <script src="encriptador.js"></script>     
+</body>
+
+</html>
