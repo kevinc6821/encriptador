@@ -200,6 +200,9 @@ footer a {
 }
 
 @media (max-width:1024px){
+    .logo{
+        margin: 0%;
+    }
     main{
         flex-direction: column;
         width: 100%; 
