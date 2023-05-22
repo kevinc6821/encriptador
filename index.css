@@ -199,7 +199,7 @@ footer a {
     font-size: 20px;
 }
 
-@media (max-width:900px){
+@media (max-width:1024px){
     main{
         flex-direction: column;
         width: 100%; 
@@ -224,12 +224,11 @@ footer a {
         margin-top: 10px;
     }
     .buttons{
-        flex-direction: column;
+        flex-direction: flex;
         align-items: center;
     }
     .encriptar{
         margin-right: 0%; 
-        margin-bottom: 5px;      
     }
    
     
