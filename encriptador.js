@@ -58,6 +58,12 @@ function btnDesencriptar() {
     const textoEncriptado = desencriptar(textArea.value)
     mensaje.value = textoEncriptado;
     textArea.value = "";
+    mensaje.style.backgroundImage = "none"
+    var texto = document.querySelector(".text4");
+    texto.style.display = "none";
+    var texto = document.querySelector(".text5");
+    texto.style.display = "none";
+
 
 
 }
